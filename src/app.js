@@ -7,9 +7,9 @@ maja.on("voiceStateUpdate", maja.queryQueue.bind(maja));
 
 (function env(bot, system, args) {
     if(system.env.npm_package_config_devMode) {
-        bot.login("NjU1MzY5ODAwNDYxMTg5MTUw.XfTI8g.14wIyKmWYbwl-6E5JJGIhWWNz1c");
+        bot.login("");
     } else {
-        bot.login("NjQwMzI1MjkwMDQzODk5OTI2.Xb4T5g.fV3eruDREg8bVxu6BMCSloqmyGc");
+        bot.login("");
     }
     
     system.stdin.resume();//so the program will not close instantly
